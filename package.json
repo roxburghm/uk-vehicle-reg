@@ -1,0 +1,30 @@
+{
+  "name": "uk-vehicle-reg",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "vitest",
+    "build": "tsc",
+    "start": "vite"
+  },
+  "keywords": [
+    "uk",
+    "vehicle",
+    "registration",
+    "validation",
+    "formatting"
+  ],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^25.0.10",
+    "typescript": "^5.9.3",
+    "vite": "^7.3.1",
+    "vitest": "^4.0.17"
+  }
+}
